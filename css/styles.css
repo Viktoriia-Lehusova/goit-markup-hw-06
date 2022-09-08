@@ -694,12 +694,15 @@ img {
 .form-field {
   display: flex;
   flex-direction: column;
+
   margin-bottom: 10px;
 }
 .form-label {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
+
+  margin-bottom: 4px;
 
   color: var(--secondary-text-color);
 }
@@ -717,20 +720,30 @@ img {
   position: absolute;
   top: 11px;
   left: 12px;
+
+  margin-right: 12px;
 }
 .textarea {
+  width: 448px;
+  height: 120px;
+  resize: none;
+
   padding: 12px 16px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
 .privacy {
+  display: flex;
+  justify-content: center;
   margin-top: 10px;
   margin-bottom: 30px;
 
   text-align: center;
 }
 .privacy-text {
+  margin-left: 9px;
+
   font-size: 14px;
   line-height: 1.71;
 
