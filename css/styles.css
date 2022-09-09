@@ -854,14 +854,20 @@ img {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.icon-checkbox:focus {
+  border-color: var(--accent-color);
+}
 .checkbox {
   position: absolute;
   appearance: none;
 }
+.checkbox:focus + .icon-checkbox {
+  box-shadow: 0 0 0 2px rgba(0, 0, 255, 0.5);
+}
 .checkbox:checked + .icon-checkbox {
   border-color: transparent;
   border: none;
-  background-color: #2196f3;
   background-image: url(/images/icon-check.svg);
   background-size: contain;
   background-origin: bordex-box;
