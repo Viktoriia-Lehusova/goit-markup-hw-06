@@ -596,8 +596,6 @@ img {
   justify-content: center;
 }
 .footer-join {
-  align-items: baseline;
-
   margin-right: 93px;
 }
 .footer-container {
@@ -841,6 +839,7 @@ img {
 }
 .privacy-link {
   color: var(--accent-color);
+  margin-left: 4px;
 }
 .icon-checkbox {
   display: block;
